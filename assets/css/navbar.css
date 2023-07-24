@@ -1,0 +1,95 @@
+.nav-item {
+    margin-right: 30px; /* Memberikan jarak sebesar 10px di sebelah kanan */
+  }
+
+  .nav-item {
+  padding-right: 30px; /* Memberikan jarak sebesar 10px di dalam elemen */
+}
+
+.nav-link {
+  color: #232340;
+  /* text-decoration: underline; */
+  border-bottom: 2px solid #232340;
+  padding: 0px !important;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.navbar-brand{
+  font-size: 52px;
+  color: #232340;
+  line-height: 50px;
+  font-weight: 600;
+  width: 138px;
+  height: 52px;
+}
+
+.titik{
+  color: #5A4FF3;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.btnnavbar{
+    /* width: 4px;
+    height: 5px; */
+    background-color: rgba(90, 79, 243, 0.5);
+    color: #232340;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Gaya tombol pada tampilan default (non-mobile) */
+.navbar-toggler {
+    background-color: transparent; /* Hapus latar belakang tombol */
+    border: none; /* Hapus border tombol */
+    /* color: #232340; Atur warna teks tombol menjadi #232340 */
+  }
+
+/* Style untuk hamburger ketika tampilan default dan landscape */
+.navbar-toggler-icon {
+  /* Gantikan ini dengan ikon hamburger yang sesuai atau sesuaikan sesuai kebutuhan desain Anda */
+  background-image: url('path/to/your/hamburger-icon.png');
+}
+
+/* Style untuk hamburger ketika tampilan mobile */
+@media (orientation: portrait) {
+  .navbar-toggler {
+    /* Ganti lebar dan tinggi sesuai kebutuhan untuk membuat 3 garis */
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    /* Menghilangkan background pada hamburger */
+    background-color: transparent;
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    /* Mengatur ikon menjadi background transparan */
+    background: transparent url('path/to/your/hamburger-icon-3-lines.png') center no-repeat;
+    /* Mengatur warna garis menjadi #232340 */
+    background-color: #232340;
+  }
+}
+
+/* Atur tampilan pada saat tombol aktif */
+.navbar-toggler.active::before,
+.navbar-toggler.active::after {
+  background-color: white;
+}
+  @media (max-width: 767px) {
+    /* Hapus border bottom pada nav link */
+    .nav-link {
+      border-bottom: none;
+      padding-left: 40px;
+      padding-top: 20px;
+    }
+  
+    /* Berikan jarak antara nav link */
+    .navbar-nav .nav-item {
+      margin-bottom: 10px; /* Sesuaikan jarak sesuai kebutuhan */
+    }
+  }
+  

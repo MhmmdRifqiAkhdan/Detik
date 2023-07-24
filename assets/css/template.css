@@ -1,0 +1,207 @@
+.nav-item {
+  margin-right: 30px; /* Memberikan jarak sebesar 10px di sebelah kanan */
+}
+
+.nav-item {
+padding-right: 30px; /* Memberikan jarak sebesar 10px di dalam elemen */
+}
+
+.nav-link {
+color: #232340;
+/* text-decoration: underline; */
+border-bottom: 2px solid #232340;
+padding: 0px;
+font-size: 16px;
+line-height: 24px;
+font-weight: 500;
+}
+.navbar-brand{
+font-size: 52px;
+color: #232340;
+line-height: 50px;
+font-weight: 600;
+width: 138px;
+height: 52px;
+}
+
+.titik{
+color: #5A4FF3;
+font-size: 50px;
+line-height: 50px;
+font-weight: 700;
+}
+
+.btnnavbar{
+  /* width: 4px;
+  height: 5px; */
+  background-color: rgba(90, 79, 243, 0.5);
+  color: #232340;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.title-section1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #25313C;
+}
+
+@media(max-width:548px) {
+  .title-section1 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .img-fluid {
+    text-align: center;
+    width: 320px;
+    height: 280px;
+  }
+}
+
+@media(max-width:450px) {
+  .title-section1 {
+    text-align: left;
+  }
+}
+
+.col {
+    display: flex;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 764px;
+    max-height: 594px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .template-paragraf {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+  }
+
+  .paragraf-template {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 1%;
+    font-weight: 400;
+    /* width: 336px;
+    height: 46px; */
+    color: #232340;
+  }
+
+  .title-template {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    /* width: 336px;
+    height: 30px; */
+    color: #232340;
+  }
+
+  .text-template {
+    color: #C897E4;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1%;
+    font-weight: 700;
+  }
+  
+  .title-template3{
+    text-align: center;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    
+  }
+
+.meta-style2.special-meta ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .meta-style2.special-meta li {
+    margin-right: 20px; /* Atur jarak antar elemen */
+  }
+
+  .meta-style2.special-meta li:last-child {
+    margin-right: 0; /* Hapus margin kanan untuk elemen terakhir */
+  }
+
+  .meta-style2.special-meta li:nth-child(2) {
+    border-right: 2px #7676B2 solid; /* Atur batas di sebelah elemen kedua (nama pengguna) */
+    padding-right: 10px; /* Atur jarak antara nama pengguna dan tanggal */
+  }
+
+  a {
+    text-decoration: none;
+    color: #7676B2;
+  }
+
+  .title-footer{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    width: 138px;
+    height: 52px;
+  }
+  
+  .paragraf-footer {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    width: 168px;
+    height: 46px;
+  }
+
+  .footer-company {
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 24px;
+    color: #5468E7;
+  }
+
+  .footer-contact {
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 24px;
+    color: #5468E7;
+  }
+
+  .footer-stay{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 24px;
+    color: #5468E7;
+  }
+
+  .paragraf-info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    /* width: 55px;
+    height: 23px; */
+    color: white;
+  }
+  
+  .footer-email {
+    background-color: #F5F5F5;
+  }
+
+  

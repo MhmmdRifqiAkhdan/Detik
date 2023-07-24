@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="assets/css/blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+
+    <!-- JavaScript -->
+    <script class="textJavaScript" src="button.js"></script>
+
+    <title>Blog</title>
+  </head>
+  <body> 
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">Team <span class="titik">.</span> </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Support</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Log In</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+            <button class="btn btnnavbar" type="submit">Get Access</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+<!-- AKHIR NAVBAR -->
+
+<!-- AWAL SECTION 1 -->
+<section class="section1">
+    <div class="container">
+        <div class="row">
+            <div class="col mt-5 py-5">
+                <h2 class="title-section1">
+                    Blog
+                </h2>
+                <p class="paragraf-section1">
+                    Open-source threaded team chat that helps teams stay productive and focused.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- AKHIR SECTION 1 -->
+
+<!-- AWAL SECTION 1 - SECTION 3 MEMBUAT BLOG GRID -->
+<section class="section3" id="page1">
+    <div class="container">
+      <div class="row mt-n5">
+        <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+            <div class="blog-grid" id="blog-grid" onclick="showBlogContent()">
+              <a href="template.html" target="_blank">
+                <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero1.png"></div>
+                <div class="blog-grid-text p-4">
+                    <h3 class="h5 mb-4 special-heading"><a href="#!">Data exported by Team Cloud organization</a></h3>
+                    <p class="display-30 special-paragraph">An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.</p>
+                    <div class="meta meta-style2 special-meta">
+                      <ul>
+                          <li><a href="#!"><img src="assets/blog/icon/icon1.png" alt="Foto Pengguna" width="40px" height="40px"></a></li>
+                          <li><a href="#!">Cameron Williasom</a></li>
+                          <li><a href="#!">July, 1 2023</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </a>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+            <div class="blog-grid">
+                <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero2.png"></div>
+                <div class="blog-grid-text p-4">
+                    <h3 class="h5 mb-4 special-heading"><a href="#!">Swap long video calls and emails for asynchronous video</a></h3>
+                    <p class="display-30 special-paragraph">Meetings are essential for communication and team building, but they’re often unproductive. Asynchronous video to the rescue.</p>
+                    <div class="meta meta-style2 special-meta">
+                      <ul>
+                          <li><a href="#!"><img src="assets/blog/icon/icon2.png" alt="Foto Pengguna" width="40px" height="40px"></a></li>
+                          <li><a href="#!">Robert Fox</a></li>
+                          <li><a href="#!">June 21, 2023</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+            <div class="blog-grid">
+                <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero3.png"></div>
+                <div class="blog-grid-text p-4">
+                    <h3 class="h5 mb-4 special-heading"><a href="#!">Flexibility reigns: six key takeaways from Frontiers 2023</a></h3>
+                    <p class="display-30 special-paragraph">The future of work is having a digital HQ that works for you.</p>
+                    <div class="meta meta-style2 special-meta">
+                      <ul>
+                          <li><img src="assets/blog/icon/icon3.png" alt="Foto Pengguna" width="40px" height="40px"></li>
+                          <li><a href="#!">Jenny Wilson</a></li>
+                          <li><a href="#!">June 10, 2023</a></li>
+                      </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+            <div class="blog-grid">
+                <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero4.png"></div>
+                <div class="blog-grid-text p-4">
+                    <h3 class="h5 mb-4 special-heading"><a href="#!">Team plus Sales Cloud: Your sales team’s new digital HQ</a></h3>
+                    <p class="display-30 special-paragraph">Why everyone on your sales team will benefit from our app’s killer features.</p>
+                    <div class="meta meta-style2 special-meta">
+                      <ul>
+                          <li><a href="#!"><img src="assets/blog/icon/icon4.png" alt="Foto Pengguna" width="40px" height="40px"></a></li>
+                          <li><a href="#!">Kathryn Murphy</a></li>
+                          <li><a href="#!">May 11, 2023</a></li>
+                      </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInUp;">
+            <div class="blog-grid">
+                <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero5.png"></div>
+                <div class="blog-grid-text p-4">
+                    <h3 class="h5 mb-4 special-heading"><a href="#!">What is digital culture?</a></h3>
+                    <p class="display-30 special-paragraph">The teams best prepared for change use modern digital communication tools, feel comfortable learning new ones and continually adapt how they work.</p>
+                    <div class="meta meta-style2 special-meta">
+                      <ul>
+                          <li><a href="#!"><img src="assets/blog/icon/icon5.png" alt="Foto Pengguna" width="40px" height="40px"></a></li>
+                          <li><a href="#!">Devon Lane</a></li>
+                          <li><a href="#!">May 22, 2023</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp;">
+            <div class="blog-grid">
+                <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero6.png"></div>
+                <div class="blog-grid-text p-4">
+                  <h3 class="h5 mb-4 special-heading"><a href="#!">Steve Dotto’s top 10 tips for overcoming workplace hiccups</a></h3>
+                  <p class="display-30 special-paragraph">The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.</p>
+                  <div class="meta meta-style2 special-meta">
+                    <ul>
+                      <li><a href="#!"><img src="assets/blog/icon/icon6.png" alt="Foto Pengguna" width="40px" height="40px"></a></li>
+                      <li><a href="#!">Theresa Webb</a></li>
+                      <li><a href="#!">April 4, 2023</a></li>
+                    </ul>
+                  </div>
+                </div>                
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp;">
+          <div class="blog-grid">
+              <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero7.png"></div>
+              <div class="blog-grid-text p-4">
+                  <h3 class="h5 mb-4 special-heading"><a href="#!">What’s new in Team: iPad updates, split-screen view and more</a></h3>
+                  <p class="display-30 special-paragraph">An internal investigation recently uncovered a vulnerability (identified as CVE-2022-21706) in Zulip’s invitation links.</p>
+                  <div class="meta meta-style2 special-meta">
+                    <ul>
+                        <li><a href="#!"><img src="assets/blog/icon/icon7.png" alt="user-image" width="40px" height="40px"></a></li>
+                        <li><a href="#!">Eleanor Pena</a></li>
+                        <li><a href="#!">March 18, 2023</a></li>
+                    </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp;">
+        <div class="blog-grid">
+            <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero8.png"></div>
+            <div class="blog-grid-text p-4">
+                <h3 class="h5 mb-4 special-heading"><a href="#!">Drive more efficiency and cost savings with these updates to Workflow Builder</a></h3>
+                <p class="display-30 special-paragraph">New and upcoming automation features help your teams do more with less.</p>
+                <div class="meta meta-style2 special-meta">
+                  <ul>
+                      <li><a href="#!"><img src="assets/blog/icon/icon9.png" alt="Foto Pengguna" width="40px" height="40px"></a></li>
+                      <li><a href="#!">Cameron Williasom</a></li>
+                      <li><a href="#!">July, 1 2023</a></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-lg-4 mt-5 wow fadeInUp" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInUp;">
+      <div class="blog-grid">
+          <div class="blog-grid-img position-relative"><img alt="img" src="assets/blog/image/img-hero9.png"></div>
+          <div class="blog-grid-text p-4">
+              <h3 class="h5 mb-4 special-heading"><a href="#!">7 tips to onboard sales reps with ease</a></h3>
+              <p class="display-30 special-paragraph">The executive producer of Dotto Tech shares his favorite Slack strategies for conquering common challenges in the digital-first workplace.</p>
+              <div class="meta meta-style2 special-meta">
+                <ul>
+                    <li><a href="#!"><img src="assets/blog/icon/icon8.png" alt="Foto Penggun  a" width="40px" height="40px"></a></li>
+                    <li><a href="#!">Savannah Nguyen</a></li>
+                    <li><a href="#!">January 7, 2023</a></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
+        <div class="pagination justify-content-center mt-5 py-5 mb-5">
+          <button class="btn btn-next" onclick="showNextPage()" type="button">Next</button>
+        </div>
+    </div>
+</section>
+<!-- AKHIR SECTION 1 - SECTION 3 MEMBUAT BLOG GRID -->
+
+
+
+
+<!-- AWAL SECTION FOOTER -->
+<section class="footer" style="background: #232340;">
+  <div class="container">
+    <div class="row py-5 mt-5">
+      <div class="col-lg-3 footer-info">
+        <h3 class="title-footer" style="color:white;">Team<span class="titik">.</span> </h3>
+        <p class="paragraf-footer" style="color:white;">
+          Collaboration platform for mordern team  
+        </p>
+      </div>
+
+      <div class="col-lg-2">
+        <h3 class="footer-company">Company</h3>
+        <div class="row">
+            <div class="col-6"> 
+                <div class="col">
+                    <p class="paragraf-info">Product</p>
+                </div>
+                <div class="col">
+                  <p class="paragraf-info">Blog</p>
+                </div>
+                <div class="col">
+                <p class="paragraf-info">Support </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-xl-2">
+        <h3 class="footer-company">Features</h3>
+        <div class="row">
+            <div class="col-10">   
+                <div class="col">
+                    <p class="paragraf-info">Screen Sharing</p>
+                </div>
+                <div class="col">
+                  <p class="paragraf-info">iOS & Android Apps</p>
+                </div>
+                <div class="col">
+                <p class="paragraf-info">File Sharing</p>
+                </div>
+                <div class="col">
+                  <p class="paragraf-info">User Managment</p>
+                  </div>
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-md-2">
+        <h3 class="footer-contact">Contact Us</h3>
+          <div class="col-8">
+              <p class="paragraf-info">Info@tempapp.com</p>
+          </div>
+          <div class="col-8">
+            <p class="paragraf-info">1-800-200-300</p>
+          </div>
+          <div class="col-8"> 
+            <p class="paragraf-info">1010 Sunset Blv.
+              Palo Alto, California</p>
+          </div>
+      </div>
+      <div class="col-lg-3">
+        <h3 class="footer-stay">Stay up to date</h3>
+        <div class="col-10">
+          <p class="paragraf-info">Subscribe to our newseller</p>
+          <form class="d-flex">
+            <input class="form-control" type="email" placeholder="Email" style="background-color: #F5F5F53D;">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>

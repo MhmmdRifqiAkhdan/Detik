@@ -1,0 +1,453 @@
+.nav-item {
+    margin-right: 30px; /* Memberikan jarak sebesar 10px di sebelah kanan */
+  }
+
+  .nav-item {
+  padding-right: 30px; /* Memberikan jarak sebesar 10px di dalam elemen */
+}
+
+.nav-link {
+  color: #232340;
+  /* text-decoration: underline; */
+  border-bottom: 2px solid #232340;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.navbar-brand{
+  font-size: 52px;
+  color: #232340;
+  line-height: 50px;
+  font-weight: 600;
+  width: 138px;
+  height: 52px;
+}
+
+.titik{
+  color: #5A4FF3;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.btnnavbar{
+    /* width: 4px;
+    height: 5px; */
+    background-color: rgba(90, 79, 243, 0.5);
+    color: #232340;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* AWAL SECTION 1 */
+.title-section1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    width: 116px;
+    height: 64px;
+    color: #232340;
+}
+
+.paragraf-section2{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    width: 554px;
+    height: 64px;
+    color: #232340;
+}
+/* AKHIR SECTION 1 */
+
+/* AWAL SECTION 2 - SECTION 4 */
+
+.card-title{
+    font-size: 24px;
+    font-weight: 400;
+    /* max-width: 335px;
+    max-height: 90px; */
+    line-height: 30px;
+    color: #5468E7;
+}
+
+/* @media(max-width:768px) {
+    .card-body{
+        max-width: 335px;
+        max-height: 90px;
+    }
+} */
+ 
+.card-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1%;
+    /* width: 335px;
+    height: 46px; */
+}
+
+.card-box{
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 10px;
+}
+
+.icon-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1%;
+    width: 143px;
+    height: 23px;
+    color: #7676B2;
+}
+
+.icon-date {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1%;
+    width: 80px;
+    height: 23px;
+    color: #7676B2;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.form-control::placeholder {
+    color: white;
+  }
+
+/* .icon-hero {
+ 
+} */
+
+.icon-text {
+    margin-left: 10px; /* Sesuaikan jarak antara ikon dan teks */
+}
+
+.icon-date {
+    margin-left: 10px; /* Sesuaikan jarak antara teks dan tanggal */
+}
+
+/* AKHIR SECTION 2 - SECTION 4 */
+
+.btn-next {
+    padding: 10px, 44px, 10px, 44px;
+    background-color: rgba(90, 79, 243, 0.5);
+    color: #232340;
+    width: 200px;
+    height: 47px;
+}
+
+.btn-previous {
+    padding: 10px, 44px, 10px, 44px;
+    background-color: rgba(90, 79, 243, 0.5);
+    color: #232340;
+    width: 200px;
+    height: 47px;
+} 
+
+body{margin-top:20px;}
+.blog-grid {
+    position: relative;
+    box-shadow: 0 1rem 1.75rem 0 rgba(45, 55, 75, 0.1);
+    height: 100%;
+    border: 0.0625rem solid rgba(220, 224, 229, 0.6);
+    border-radius: 0.25rem;
+    transition: all .2s ease-in-out;
+    height: 100%
+}
+
+.blog-grid span {
+    color: #292dc2
+}
+
+.blog-grid img {
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem
+}
+
+.blog-grid-text {
+    position: relative
+}
+
+.blog-grid-text h4 {
+    line-height: normal;
+    margin-bottom: 15px
+}
+
+.blog-grid-text .meta-style2 ul li {
+    margin-bottom: 0;
+    font-weight: 500
+}
+
+.blog-grid-text .meta-style2 ul li:last-child {
+    margin-right: 0
+}
+
+.blog-grid-text ul {
+    margin: 0;
+    padding: 0
+}
+
+.blog-grid-text ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 10px 5px 0
+}
+
+.blog-grid-text ul li:last-child {
+    margin-right: 0
+}
+
+.blog-grid-text ul li i {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px
+}
+
+.blog-grid-text p {
+    font-weight: 400;
+    padding: 0
+}
+
+.blog-list-left-heading:after,
+.blog-title-box:after {
+    content: '';
+    height: 2px
+}
+
+.blog-grid-simple-content a:hover {
+    color: #1d184a
+}
+
+.blog-grid-simple-content a:hover:after {
+    color: #1d184a
+}
+.blog-grid-text {
+    position: relative
+}
+
+.blog-grid-text h4 {
+    line-height: normal;
+    margin-bottom: 15px
+}
+
+.blog-grid-text .meta-style2 {
+    padding-top: 15px
+}
+
+.blog-grid-text .meta-style2 ul li {
+    margin-bottom: 0;
+    font-weight: 500
+}
+
+.blog-grid-text .meta-style2 ul li:last-child {
+    margin-right: 0
+}
+
+.blog-grid-text ul {
+    margin: 0;
+    padding: 0
+}
+
+.blog-grid-text ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 10px 5px 0; 
+}
+
+.blog-grid-text ul li:last-child {
+    margin-right: 0
+}
+
+.blog-grid-text ul li i {
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 5px
+}
+
+/* Gaya untuk elemen h3 dengan class special-heading */
+.blog-grid-text .special-heading a{
+    color: #5468E7;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  /* Gaya untuk elemen p dengan class special-paragraph */
+  .blog-grid-text .special-paragraph {
+    font-size: 14px;
+    line-height: 23px;
+    color: #232340;
+    letter-spacing: 1%;
+  }
+  
+  /* Gaya untuk elemen ul dengan class special-meta */
+  .blog-grid-text .special-meta {
+    margin-top: 10px;
+    list-style: none;
+  }
+  
+  /* Gaya untuk elemen li dalam ul dengan class special-meta */
+  .blog-grid-text .special-meta li {
+    margin-right: 10px;
+  }
+  
+  /* Gaya untuk elemen a dalam ul dengan class special-meta */
+  .blog-grid-text .special-meta a {
+    color: #7676B2;
+    text-decoration: none;
+  }
+
+.pagination {
+    border-radius: 0;
+    padding: 0;
+    margin: 0
+}
+
+.pagination ul {
+    display: inline-block;
+    display: inline;
+    zoom: 1;
+    margin: 0 auto;
+    padding: 0
+}
+
+.pagination li {
+    display: inline
+}
+
+.pagination a {
+    float: left;
+    padding: 0 18px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 1px solid #dbdbdb;
+    border-left-width: 0;
+    background: #fff
+}
+
+.pagination a:hover {
+    background-color: #1d184a;
+    color: #fff
+}
+
+.pagination .active a {
+    background-color: #f7f7f7;
+    color: #999;
+    cursor: default
+}
+
+.pagination .disabled span {
+    color: #999;
+    background-color: transparent;
+    cursor: default
+}
+
+.pagination .disabled a {
+    color: #999;
+    background-color: transparent;
+    cursor: default
+}
+
+.pagination .disabled a:hover {
+    color: #999;
+    background-color: transparent;
+    cursor: default
+}
+
+.pagination li:first-child a {
+    border-left-width: 1px
+}
+
+.mt-6, .my-6 {
+    margin-top: 3.5rem;
+}
+
+/* .meta-style2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .meta-style2 li {
+    list-style: none;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .meta-style2 li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 20px;
+    border: 1px #7676B2 solid;
+  } */
+
+  .blog-grid-text .paragraf-grid {
+    color: #7676B2;
+  }
+
+  .meta-style2.special-meta ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;
+  }
+
+  .meta-style2.special-meta li {
+    margin-right: 20px; /* Atur jarak antar elemen */
+  }
+
+  .meta-style2.special-meta li:last-child {
+    margin-right: 0; /* Hapus margin kanan untuk elemen terakhir */
+  }
+
+  .meta-style2.special-meta li:nth-child(2) {
+    border-right: 2px #7676B2 solid; /* Atur batas di sebelah elemen kedua (nama pengguna) */
+    padding-right: 10px; /* Atur jarak antara nama pengguna dan tanggal */
+  }
+
+  #blog-grid {
+    display: flex;
+    align-items: center;
+  }
+
+  .blog-grid-text {
+    /* Atur jarak atas dan bawah pada bagian footer */
+    padding-bottom: 20px;
+  }
+
+  #blog-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Atur kolom grid */
+    grid-template-rows: auto auto; /* Atur baris grid */
+    gap: 10px; /* Atur jarak antar elemen dalam grid */
+  }
+
+  .meta {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+
+  
+  
+
+
+
+
+

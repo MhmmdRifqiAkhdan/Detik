@@ -1,0 +1,341 @@
+.nav-item {
+  margin-right: 25px; /* Memberikan jarak sebesar 10px di sebelah kanan */
+}
+
+.nav-item {
+  padding-right: 25px; /* Memberikan jarak sebesar 10px di dalam elemen */
+}
+
+.nav-link {
+  color: white;
+  border-bottom: white 1px solid;
+  padding: 0px;
+}
+.navbar-brand {
+  font-size: 52px;
+  color: white;
+  line-height: 52px;
+  font-weight: 600;
+}
+
+.titik {
+  color: #5a4ff3;
+  font-size: 30px;
+}
+
+.btnnavbar {
+  /* width: 4px;
+    height: 5px; */
+  background-color: rgba(90, 79, 243, 0.5);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+
+/* AWAL SECTION 1 */
+.titlesection1 {
+  font-size: 50px;
+  color: white;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+.paragrafsection1 {
+  font-size: 18px;
+  color: white;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.btnsection1 {
+  color: black;
+}
+
+.form-control::placeholder {
+  color: #7676b2;
+}
+.form-control2::placeholder {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  width: 39px;
+  height: 23px;
+}
+
+.form-control2 {
+  width: 268px;
+  height: 46px;
+  padding: 11px, 16px, 11px, 16px;
+  background-color: gray;
+  border: none;
+  border-radius: 4px;
+}
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: black;
+}
+
+.btnsection1 {
+  background: #5468e7;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+
+/* AKHIR SECTION 1 */
+
+/* AWAL SECTION 2 */
+.titlesection2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #232340;
+}
+
+.paragrafsection2 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.learnmore {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 91px;
+  height: 24px;
+}
+
+/* AKHIR SECTION 2 */
+
+/* AWAL SECTION 3 */
+.titlesection3 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.paragrafsection3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #232340;
+}
+
+.learnmore {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 91px;
+  height: 24px;
+}
+/* AKHIR SECTION 3 */
+
+/* AWAL SECTION 4 */
+.titlesection4 {
+  font-size: 50px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #232340;
+}
+
+.paragrafsection4 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.learnmore {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 91px;
+  height: 24px;
+}
+/* AKHIR SECTION 4 */
+
+/* AWAL SECTION 5 */
+.titlesection5 {
+  font-size: 50px;
+  line-height: 64px;
+  font-weight: 700;
+  color: #232340;
+}
+
+.paragrafsection5 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+.learnmore {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  width: 91px;
+  height: 24px;
+}
+/* AKHIR SECTION 5 */
+
+/* AWAL SECTION 6 */
+
+.titlesection6 {
+  font-weight: 700;
+  line-height: 64px;
+  font-size: 50px;
+  /* width: 746px; */
+  /* height:64px; */
+}
+
+.fa-star {
+  width: 23.16px;
+  height: 21.81px;
+  top: 5.1px;
+  left: 4.66px;
+  border: 1px;
+}
+
+.title-carousel1 {
+  width: 231px;
+  height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #232340;
+  margin: 0px;
+}
+
+.paragraf-carousel1 {
+  width: 231px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #7676b2;
+  margin: 0px;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  margin-left: 10px;
+}
+
+/* Arrow */
+.custom-arrows {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.swiper-button-next-custom,
+.swiper-button-prev-custom {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 5px; 
+  padding: 0; 
+}
+
+.swiper-button-next-custom i,
+.swiper-button-prev-custom i {
+  color: #000;
+  font-size: 20px;
+}
+
+/* AKHIR SECTION 6 */
+
+/* AWAL FOOTER */
+.card-body {
+  box-shadow: gray 1px 1px 1px;
+  /* border-radius: 20px; */
+}
+
+.title-footer {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 50px;
+  width: 138px;
+  height: 52px;
+}
+
+.paragraf-footer {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  width: 168px;
+  height: 46px;
+}
+
+.footer-company {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 24px;
+  color: #5468e7;
+}
+
+.footer-contact {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 24px;
+  color: #5468e7;
+}
+
+.footer-stay {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 24px;
+  color: #5468e7;
+}
+
+.paragraf-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  /* width: 55px;
+  height: 23px; */
+  color: white;
+}
+
+.footer-email {
+  background-color: maroon;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: maroon;
+}
+/* AKHIR FOOTER */
+
+/* Gaya default untuk tampilan desktop */
+
+/* Gaya untuk tampilan mobile (layar dengan lebar < 768px) */
+@media (max-width: 767px) {
+  /* Ganti atau sesuaikan tata letak, padding, margin, ukuran teks, dan lainnya untuk tampilan mobile */
+  /* Contoh: */
+  .navbar {
+    padding: 10px;
+  }
+
+  .titlesection1 {
+    font-size: 24px;
+  }
+
+  .paragrafsection1 {
+    font-size: 16px;
+  }
+
+  /* Tambahkan pengaturan khusus lainnya sesuai kebutuhan */
+}
